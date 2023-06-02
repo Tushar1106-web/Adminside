@@ -9,7 +9,7 @@ import Header from "./Header";
 function Main() {
   const user = useSelector(selectUser);
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   //   const currenttime = localStorage.getItem('currenttime');
   const expiretime = localStorage.getItem("Expiretime");
   const data = localStorage.getItem("name");
